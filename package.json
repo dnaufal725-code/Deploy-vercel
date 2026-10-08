@@ -1,0 +1,18 @@
+{
+  "name": "deployx",
+  "version": "1.0.0",
+  "description": "Premium Vercel deployment dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
